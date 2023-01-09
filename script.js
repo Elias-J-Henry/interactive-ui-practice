@@ -68,7 +68,7 @@ function insertQuote(quote, index) {
   //create p tag
   var author = document.createElement("p");
   // append author to p tag
-  p.appendChild(document.createTextNode(quote.author));
+  p.appendChild(document.createTextNode(" - " + quote.author));
   // give p tag id of index
   p.setAttribute("id", index);
   // append p tag to div
